@@ -6,13 +6,13 @@ and restart php7.*-fpm
 
 2)setup nginx conf file for server in sites-available
 
-3)symlink: sudo ln -s /etc/nginx/sites-available/databases /etc/nginx/sites-enabled/databases
+3)copy example: sudo cp /etc/nginx/sites-available/databases /etc/nginx/sites-enabled/
 
 4)add to /etc/hosts
 
 5)restart nginx
 
-6)sudo chown -R username:www-data storage && chown -R 775 storage
+6)sudo chown -R username:www-data storage && sudo chown -R 775 storage
 
 7)SONARQUBE server
 
