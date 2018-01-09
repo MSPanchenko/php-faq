@@ -6,7 +6,7 @@ and restart php7.*-fpm
 
 2)setup nginx conf file for server in sites-available
 
-3)copy example: sudo cp /etc/nginx/sites-available/databases /etc/nginx/sites-enabled/
+3)copy example: sudo ln -s /etc/nginx/sites-available/databases /etc/nginx/sites-enabled/ (enter full path)
 
 4)add to /etc/hosts
 
