@@ -12,7 +12,7 @@ and restart php7.*-fpm
 
 5)restart nginx
 
-6)sudo chown -R username:www-data storage && sudo chown -R 775 storage
+6)sudo chown -R username:www-data storage && sudo chmod -R 775 storage
 
 7)SONARQUBE server
 
